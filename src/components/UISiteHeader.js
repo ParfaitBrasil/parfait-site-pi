@@ -1,29 +1,25 @@
 import React, { Component } from "react";
-import { HashLink } from 'react-router-hash-link';
-
+import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 class UISiteHeader extends Component {
 	render() {
 		return (
 			<header id="site-header">
 				<div className="container">
 					<div className="header-container">
-						<img className="logo" src="logo.svg" alt="bush" />
+						<Link to="/">
+							<img className="logo" src="logo.svg" alt="bush" />
+						</Link>
 						<nav>
 							<ul>
 								<li>
-									<HashLink to="#sobre">
-										sobre
-									</HashLink>
+									<HashLink to="/#sobre">sobre</HashLink>
 								</li>
 								<li>
-									<HashLink to="#quem-somos">
-										quem somos
-									</HashLink>
+									<HashLink to="/#quem-somos">quem somos</HashLink>
 								</li>
 								<li>
-									<HashLink to="#portfolio">
-										portfólio
-									</HashLink>
+									<HashLink to="/#portfolio">portfólio</HashLink>
 								</li>
 							</ul>
 						</nav>

@@ -19,7 +19,7 @@ class Error404 extends Component {
 		return (
 			<main id="site-main" role="main">
 				<div className="container">
-					<img className="logo" src="logo.svg" alt="bush" />
+					<img className="logo" src="logo-alt.svg" alt="bush" />
 					<h1>Página não encontrada</h1>
 					<p>Não encontramos essa página em nosso servidor.</p>
 					<Row justify="center">
