@@ -1,0 +1,22 @@
+@import "../vars";
+
+footer#site-footer {
+	padding: 50px 0;
+	background-color: $primary-color;
+	text-align: center;
+
+	img {
+		width: 120px;
+	}
+
+	p {
+		font-size: 16px;
+		max-width: 350px;
+		margin: 0 auto 25px;
+		color: #fff;
+
+		a {
+			color: $secondary-color;
+		}
+	}
+}

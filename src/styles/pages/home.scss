@@ -1,0 +1,297 @@
+@import "../vars";
+
+body.page-home {
+	#site-main {
+		.hero-section {
+			background-color: #fff;
+			background-image: linear-gradient(165deg, rgba($secondary-color, 0.5) -10%, #fff 100%);
+			background-size: 300px;
+			padding: 50px 0;
+			min-height: 780px;
+			animation: heroAnimation infinite 10s;
+
+			.info-container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				height: 100%;
+
+				h1 {
+					font-weight: 800;
+					font-size: 56px;
+					line-height: 48px;
+					color: $primary-color;
+					margin-bottom: 20px;
+				}
+	
+				h2 {
+					font-size: 20px;
+					line-height: 30px;
+					font-weight: 500;
+					color: #575757;
+					margin-bottom: 50px;
+					max-width: 400px;
+				}
+
+				.ant-btn {
+					width: fit-content;
+				}
+			}
+		}
+
+		@keyframes heroAnimation {
+			0%, 100% {
+				background-size: 300px;
+			}
+			50% {
+				background-size: 350px;
+			}
+			75% {
+				background-size: 250px;
+			}
+		}
+
+		.about-section {
+			padding: 100px 0 150px;
+
+			h2 {
+				font-weight: 800;
+				font-size: 36px;
+				line-height: 48px;
+				color: $secondary-color;
+				text-align: center;
+				margin-bottom: 8px;
+			}
+
+			p.subtitle {
+				font-size: 18px;
+				line-height: 26px;
+				font-weight: 500;
+				color: #575757;
+				text-align: center;
+				max-width: 450px;
+				margin: 0 auto 50px;
+			}
+
+			.text-container {
+				max-width: 780px;
+				margin: 0 auto;
+				padding: 30px 40px;
+				background-color: $primary-color;
+				background-image: linear-gradient(160deg, $primary-color 55%, $secondary-color 100%);
+				border-radius: 8px;
+				color: #fff;
+				font-size: 16px;
+				line-height: 21px;
+				
+				p {
+					font-family: 'Poppins'!important;
+				}
+			}
+		}
+
+		.who-section {
+			padding: 80px 0 100px;
+			position: relative;
+			background-color: $secondary-color;
+
+			h2 {
+				font-weight: 800;
+				font-size: 36px;
+				line-height: 48px;
+				color: $third-color;
+				text-align: center;
+				margin-bottom: 12px;
+			}
+
+			p.subtitle {
+				font-size: 18px;
+				line-height: 26px;
+				font-weight: 500;
+				color: $third-color-hover;
+				text-align: center;
+				margin: 0 auto 50px;
+			}
+
+			.slides {
+				@include mobile {
+					margin: 0 -27px;
+				}
+
+				.swiper {
+					@include mobile {
+						padding: 0 27px;
+					}
+				}
+			}
+			
+			.swiper-pagination {
+				bottom: 45px;
+
+				.swiper-pagination-bullet {
+					width: 12px;
+					height: 12px;
+					background-color: #fff!important;
+					opacity: 0.4;
+					transition: opacity 0.3s;
+				}
+
+				.swiper-pagination-bullet-active {
+					opacity: 1;
+				}
+			}
+
+			.who-item {
+				background-color: #fff;
+				border-radius: 4px;
+				padding: 25px 15px;
+				text-align: center;
+
+				figure {
+					padding: 0 15px;
+					margin-bottom: 0;
+
+					&, img {
+						border-radius: 50%;
+						aspect-ratio: 1/1;
+					}
+				}
+
+				h3 {
+					font-weight: 700;
+					font-size: 20px;
+					line-height: 28px;
+					color: lighten($primary-color, 5%);
+					margin-bottom: 5px;
+				}
+
+				.email {
+					font-size: 13.5px;
+					font-family: 'Poppins'!important;
+					color: $secondary-color;
+					word-break: break-all;
+				}
+
+				.social-container {
+					display: flex;
+					gap: 10px;
+					align-items: center;
+					justify-content: center;
+					margin-top: 20px;
+				}
+			}
+		}
+
+		.portfolio-section {
+			padding: 100px 0 150px;
+
+			h2 {
+				font-weight: 800;
+				font-size: 36px;
+				line-height: 48px;
+				color: $secondary-color;
+				text-align: center;
+				margin-bottom: 8px;
+			}
+
+			p.subtitle {
+				font-size: 18px;
+				line-height: 26px;
+				font-weight: 500;
+				color: #575757;
+				text-align: center;
+				max-width: 680px;
+				margin: 0 auto 50px;
+			}
+
+			.ant-collapse {
+				background-color: #fff;
+				&, * {
+					border: 0;
+				}
+
+				.ant-collapse-item {
+					&:not(:last-child) {
+						margin-bottom: 15px;
+					}
+				}
+
+				.ant-collapse-content-box {
+					padding: 25px 40px;
+					* {
+						font-family: 'Poppins'!important;
+					}
+
+					p {
+						color: $primary-color;
+						font-size: 16px;
+						line-height: 21px;
+					}
+
+					.ant-btn {
+						line-height: 72px;
+					}
+				}
+			}
+
+			.ant-collapse-header {
+				padding: 0;
+				background-color: #fff;
+				border-radius: 8px;
+				position: relative;
+
+				$border: 3px;
+				background-clip: padding-box; /* !importanté */
+				border: solid $border transparent; /* !importanté */
+
+				&:before {
+					content: '';
+					position: absolute;
+					top: 0; right: 0; bottom: 0; left: 0;
+					z-index: 1;
+					margin: -$border; /* !importanté */
+					border-radius: inherit; /* !importanté */
+					background-image: linear-gradient(160deg, $primary-color 55%, $secondary-color 100%);
+				}
+
+				& > div {
+					z-index: 2;
+				}
+				
+				.header {
+					display: flex;
+					flex-direction: column;
+					gap: 4px;
+					position: relative;
+					z-index: 1;
+					width: 100%;
+					height: 100%;
+					padding: 25px 40px;
+					background-color: #fff;
+					border-radius: 8px;
+				}
+
+				.anticon {
+					right: 40px;
+					font-size: 20px;
+					z-index: 2;
+				}
+
+				h3 {
+					font-size: 18px;
+					line-height: 24px;
+					font-weight: 700;
+					margin-bottom: 0px;
+					color: $primary-color;
+				}
+
+				p.professor {
+					color: $secondary-color;
+					font-size: 15px;
+					line-height: 21px;
+					font-family: 'Poppins'!important;
+				}
+			}
+		}
+	}
+}
