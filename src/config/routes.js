@@ -7,6 +7,6 @@ import Error404 from "./../screens/Error404";
 // -----------------------------------------------------------------------------
 export const ROUTES = [
 	{path: "/", component: Home},
-	{path: "/portfolio", component: Portfolio},
+	{path: "/portfolio/:period?", component: Portfolio},
 	{path: "/error/404", component: Error404},
 ];

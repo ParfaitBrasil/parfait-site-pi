@@ -29,9 +29,22 @@ body.page-portfolio {
 				margin: 0 auto 60px;
 			}
 
+			h4 {
+				font-weight: 800;
+				font-size: 20px;
+				color: $secondary-color;
+				margin-bottom: 8px;
+			}
+
+			h5 {
+				font-weight: 800;
+				font-size: 16px;
+				margin-bottom: 5px;
+			}
+
 			.ant-collapse {
 				background-color: #fff;
-				&, * {
+				&, *:not(.ant-divider) {
 					border: 0;
 				}
 
