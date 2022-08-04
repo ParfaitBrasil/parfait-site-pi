@@ -19,7 +19,7 @@ class UISiteHeader extends Component {
 									<HashLink to="/#quem-somos">quem somos</HashLink>
 								</li>
 								<li>
-									<HashLink to="/#portfolio">portfólio</HashLink>
+									<Link to="/portfolio">portfólio</Link>
 								</li>
 							</ul>
 						</nav>

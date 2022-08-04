@@ -1,4 +1,5 @@
 import Home from "./../screens/Home";
+import Portfolio from "./../screens/Portfolio";	
 import Error404 from "./../screens/Error404";
 
 // -----------------------------------------------------------------------------
@@ -6,5 +7,6 @@ import Error404 from "./../screens/Error404";
 // -----------------------------------------------------------------------------
 export const ROUTES = [
 	{path: "/", component: Home},
+	{path: "/portfolio", component: Portfolio},
 	{path: "/error/404", component: Error404},
 ];

@@ -116,7 +116,7 @@ class Home extends Component {
 								<SwiperSlide>
 									<div className="who-item">
 										<figure>
-											<img src="who/gabriel_pereira.webp" alt="Gabriel Pereira" />
+											<img src="who/gabriel_nino.jpg" alt="Gabriel Pereira" />
 										</figure>
 										<h3>Gabriel Pereira</h3>
 										<a className="email" href="mailto:gabrielnino@edu.unifil.br">gabrielnino@edu.unifil.br</a>
@@ -155,78 +155,6 @@ class Home extends Component {
 							</Swiper>
 						</div>
 						<div className="swiper-pagination"></div>
-					</div>
-				</section>
-				<section className="portfolio-section" id="portfolio">
-					<div className="container">
-						<h2>portfólio</h2>
-						<p className="subtitle">Por aqui você acompanha nosso progresso, obtendo acesso ao histórico de atividades desenvolvidas clicando no respectivo período.</p>
-						<Collapse
-							bordered={false}
-							accordion
-							expandIconPosition="right"
-						>
-							<Panel header={
-								<div className="header">
-									<h3>Análise e Projeto de Algoritmos</h3>
-									<p className="professor">Anderson Macedo</p>
-								</div>
-							}
-							key="1">
-								<div>
-									<p>Nessa disciplina desenvolvemos um sistema de Login com validação de usuário e senha, utilizando a linguagem Java.</p>
-									<a href="download/Login.zip" className="ant-btn ant-btn-primary">Baixar</a>
-								</div>
-							</Panel>
-							<Panel header={
-								<div className="header">
-									<h3>Análise e Projeto Orientados a Objetos</h3>
-									<p className="professor">Marcelo Bicalho</p>
-								</div>
-							}
-							key="2">
-								<div>
-									<p>Nessa disciplina desenvolvemos um projeto em C#.net para exemplificar os itens da Orientação à Objetos.</p>
-									<a href="download/OrientaçãoObjetos.rar" className="ant-btn ant-btn-primary">Baixar</a>
-								</div>
-							</Panel>
-							<Panel header={
-								<div className="header">
-									<h3>Elementos de Cálculo e Álgebra Linear</h3>
-									<p className="professor">Tania Camila</p>
-								</div>
-							}
-							key="3">
-								<div>
-									<p>Nessa disciplina demonstramos uma opção de cálculo para a seção de CPF, atráves do produto escalar de vetores.</p>
-									<a href="download/CálculoCPF.pdf" className="ant-btn ant-btn-primary">Baixar</a>
-								</div>
-							</Panel>
-							<Panel header={
-								<div className="header">
-									<h3>Gerenciamento de Projetos</h3>
-									<p className="professor">Bruno Coleto</p>
-								</div>
-							}
-							key="4">
-								<div>
-									<p>Nessa disciplina gravamos um vídeo de poucos minutos, conhecido por muitos como "Pitch", onde o objetivo é engajar outras pessoas em torno do seu projeto, ou melhor, vender a sua ideia a uma pessoa.</p>
-									<iframe src="https://drive.google.com/file/d/17PFmAB1NxVzzAB83FKOq5Ds_MgYDyj7Y/preview" width="780" height="439" allow="autoplay"></iframe>
-								</div>
-							</Panel>
-							<Panel header={
-								<div className="header">
-									<h3>Processo de Desenvolvimento de Software</h3>
-									<p className="professor">Anderson Macedo</p>
-								</div>
-							}
-							key="5">
-								<div>
-									<p>Nessa disciplina fizemos um levantamento de todas as funcionalidades existentes no projeto, escolhemos duas e construímos as etapas de acordo com o modelo do ciclo de vida Iterativo.</p>
-									<a href="download/Funcionalidades.pdf" className="ant-btn ant-btn-primary">Baixar</a>
-								</div>
-							</Panel>
-						</Collapse>
 					</div>
 				</section>
 			</main>

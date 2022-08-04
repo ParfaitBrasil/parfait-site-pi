@@ -998,9 +998,11 @@ label.form-label {
 ============================================================================ */
 @import "components/header";
 @import "components/footer";
+@import "components/skeleton";
 
 /* ============================================================================
 	Pages
 ============================================================================ */
 @import "pages/home";
+@import "pages/portfolio";
 @import "pages/error-404";
