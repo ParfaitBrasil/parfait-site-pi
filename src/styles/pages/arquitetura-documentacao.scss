@@ -1,0 +1,40 @@
+@import "../vars";
+
+body.page-arquitetura-documentacao {
+	#site-main {
+		padding-top: 30px;
+		padding-bottom: 80px;
+
+		.ant-breadcrumb {
+			margin-bottom: 40px;
+		}
+
+		h2 {
+			color: $secondary-color;
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 48px;
+			margin-bottom: 10px;
+		}
+
+		p.subtitle {
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 26px;
+			color: #5F5F5F;
+			max-width: 680px;
+		}
+
+		.ant-collapse {
+			background-color: #fff;
+		}
+
+		.site-collapse-custom-panel {
+			margin-bottom: 20px;
+			overflow: hidden;
+			background: #f7f7f7;
+			border: 0px;
+			border-radius: 5px;
+		}
+	}
+}
