@@ -5,9 +5,7 @@ import { Link } from "react-router-dom";
 
 import { Breadcrumb, Collapse } from "antd";
 
-import { CaretRightOutlined } from '@ant-design/icons';
-
-class ArquiteturaDocumentacao extends Component {
+class Documentacao extends Component {
 	componentDidMount() {
 		document.body.classList.add("page-arquitetura-documentacao");
 
@@ -128,4 +126,4 @@ class ArquiteturaDocumentacao extends Component {
 	}
 }
 
-export default ArquiteturaDocumentacao;
+export default Documentacao;

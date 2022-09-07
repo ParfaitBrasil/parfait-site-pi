@@ -1,6 +1,7 @@
 import Home from "./../screens/Home";
 import Portfolio from "./../screens/Portfolio";
-import ArquiteturaDocumentacao from "./../screens/ArquiteturaDocumentacao"
+import Documentacao from "../screens/Arquitetura/documentacao";
+import Exemplos from "../screens/Paradigmas/exemplos";
 import Error404 from "./../screens/Error404";
 
 // -----------------------------------------------------------------------------
@@ -9,6 +10,7 @@ import Error404 from "./../screens/Error404";
 export const ROUTES = [
 	{path: "/", component: Home},
 	{path: "/portfolio/:period?", component: Portfolio},
-	{path: "/portfolio/arquitetura-de-software/documentacao", component: ArquiteturaDocumentacao},
+	{path: "/portfolio/arquitetura-de-software/documentacao", component: Documentacao},
+	{path: "/portfolio/paradigmas/exemplos", component: Exemplos},
 	{path: "/error/404", component: Error404},
 ];

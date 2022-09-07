@@ -1,0 +1,43 @@
+@import "../../vars";
+
+body.page-paradigmas-exemplos {
+	#site-main {
+		padding-top: 30px;
+		padding-bottom: 80px;
+
+		.ant-breadcrumb {
+			margin-bottom: 40px;
+		}
+
+		h2 {
+			color: $secondary-color;
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 48px;
+			margin-bottom: 10px;
+		}
+
+		p.subtitle {
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 26px;
+			color: #5F5F5F;
+			max-width: 680px;
+		}
+
+		h3 {
+			font-size: 19px;
+			margin-bottom: 5px;
+		}
+
+		p:not(.subtitle) {
+			margin-bottom: 22px;
+		}
+
+		figure {
+			width: 100%;
+			max-width: 680px;
+			margin-bottom: 50px;
+		}
+	}
+}
