@@ -49,7 +49,7 @@ class Home extends Component {
 								A dor a qual pretendemos resolver é a falta de segurança quando o assunto é contratação de serviços e locação de maquinário agrícola.
 							</p>
 							<p>
-								Pensando nisso apresentamos uma proposta de desenvolver uma plataforma onde grandes e pequenos produtores possam se conectar e realizar negócios com segurança e praticidade.
+								Pensando nisso, apresentamos uma proposta de desenvolver uma plataforma onde grandes e pequenos produtores possam se conectar e realizar negócios com segurança e praticidade.
 							</p>
 						</div>
 					</div>
@@ -142,13 +142,12 @@ class Home extends Component {
 								<SwiperSlide>
 									<div className="who-item">
 										<figure>
-											<img src="who/ariel.jpg" alt="Ariel Moreira" />
+											<img src="who/bruno.jpg" alt="Bruno Okamoto" />
 										</figure>
-										<h3>Ariel Moreira</h3>
-										<a className="email" href="mailto:arielmoreira@edu.unifil.br">arielmoreira@edu.unifil.br</a>
+										<h3>Bruno Okamoto</h3>
+										<a className="email" href="mailto:brunoedu.unifil.br@edu.unifil.br">brunoedu.unifil.br@edu.unifil.br</a>
 										<div className="social-container">
-											<a href="https://github.com/arielmmoreira/" target="_blank" rel="noopener noreferrer"><FaGithub size="24px" color="#143531" /></a>
-											<a href="https://www.linkedin.com/in/arielmmoreira/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn size="24px" color="#143531" /></a>
+											<a href="https://www.linkedin.com/in/bruno-okamoto-999b20234/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn size="24px" color="#143531" /></a>
 										</div>
 									</div>
 								</SwiperSlide>
