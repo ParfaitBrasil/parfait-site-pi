@@ -181,6 +181,39 @@ class Portfolio extends Component {
 														}
 														key="1">
 															<div>
+																<p>Em desenvolvimento...</p>
+															</div>
+														</Panel>
+														<Panel header={
+															<div className="header">
+																<h3>Gerência de Configuração e Controle de Versão</h3>
+																<p className="professor">Marcelo Bicalho</p>
+															</div>
+														}
+														key="2">
+															<div>
+																<p>Em desenvolvimento...</p>
+															</div>
+														</Panel>
+														<Panel header={
+															<div className="header">
+																<h3>Introdução a Banco de Dados</h3>
+																<p className="professor">Edson Shinki Kaneshima</p>
+															</div>
+														}
+														key="3">
+															<div>
+																<p>Em desenvolvimento...</p>
+															</div>
+														</Panel>
+														<Panel header={
+															<div className="header">
+																<h3>Paradigmas de Linguagens de Programação</h3>
+																<p className="professor">Adail Roberto Nogueira</p>
+															</div>
+														}
+														key="4">
+															<div>
 																<h4>HTML</h4>
 																<h5>Histórico</h5>
 																<p>O Html foi criado em 1992 por Tim Bernes Lee e Robert Caillau. Com o Html foi possível disponibilizar links de navegação para outras páginas. Inicialmente ela não possuía muitos recursos de aparência, mas com a necessidade de uma aparência mais amigável as outras versões foram dando mais liberdades para isso.</p>
@@ -216,39 +249,6 @@ class Portfolio extends Component {
 																<p>Pode ser usada na forma procedural, estruturada, e imperativo. JavaScript é conhecida por também ser orientada a objeto através de protótipos. Mas como toda linguagem moderna, ela usa do paradigma funcional e também sofre forte influência da programação orientada a eventos.</p>
 																<p>Recentemente a orientação a objeto pode ser expressada através de classes também, ainda que de forma apenas sintática. Mesmo assim o uso é um pouco diferente do que encontramos nas linguagens mais conhecidas que se dizem OOP (C++, C#, Java, etc.), até porque a tipagem dinâmica força diferenças. De qualquer forma adota-se um pouco o estilo OO, mas está longe de ser puramente OO, como o é Smalltalk, por exemplo.</p>
 																<p>A linguagem usa tipagem dinâmica e é usada como script. É dita como tipagem fraca, mas isso não ocorre em todas situações, possuindo tipos primitivos e dicionários para preencher os protótipos e simular as classes (nativamente na linguagem). Costuma rodar de forma interpretada</p>
-															</div>
-														</Panel>
-														<Panel header={
-															<div className="header">
-																<h3>Gerência de Configuração e Controle de Versão</h3>
-																<p className="professor">Marcelo Bicalho</p>
-															</div>
-														}
-														key="2">
-															<div>
-																<p>Em desenvolvimento...</p>
-															</div>
-														</Panel>
-														<Panel header={
-															<div className="header">
-																<h3>Introdução a Banco de Dados</h3>
-																<p className="professor">Edson Shinki Kaneshima</p>
-															</div>
-														}
-														key="3">
-															<div>
-																<p>Em desenvolvimento...</p>
-															</div>
-														</Panel>
-														<Panel header={
-															<div className="header">
-																<h3>Paradigmas de Linguagens de Programação</h3>
-																<p className="professor">Adail Roberto Nogueira</p>
-															</div>
-														}
-														key="4">
-															<div>
-																<p>Em desenvolvimento...</p>
 															</div>
 														</Panel>
 														<Panel header={

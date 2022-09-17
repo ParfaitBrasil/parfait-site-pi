@@ -147,6 +147,7 @@ class Home extends Component {
 										<h3>Bruno Okamoto</h3>
 										<a className="email" href="mailto:brunoedu.unifil.br@edu.unifil.br">brunoedu.unifil.br@edu.unifil.br</a>
 										<div className="social-container">
+											<a href="https://github.com/Brunookamoto157" target="_blank" rel="noopener noreferrer"><FaGithub size="24px" color="#143531" /></a>
 											<a href="https://www.linkedin.com/in/bruno-okamoto-999b20234/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn size="24px" color="#143531" /></a>
 										</div>
 									</div>
